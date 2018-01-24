@@ -101,7 +101,7 @@ var appMaster = {
                 streetViewControl:false,
 
                 // The latitude and longitude to center the map (always required)
-                center: new google.maps.LatLng(31.1997396,29.9194378), // New York
+                center: new google.maps.LatLng(52.522,13.4), // Berlin
 
                 // How you would like to style the map. 
                 // This is where you would paste any style found on Snazzy Maps.
@@ -129,7 +129,7 @@ var appMaster = {
                         "elementType": "labels",
                         "stylers": [
                             {
-                                "visibility": "off"
+                                "visibility": "on"
                             }
                         ]
                     },
@@ -138,7 +138,7 @@ var appMaster = {
                         "elementType": "labels",
                         "stylers": [
                             {
-                                "visibility": "off"
+                                "visibility": "on"
                             }
                         ]
                     },
@@ -147,7 +147,7 @@ var appMaster = {
                         "elementType": "labels.icon",
                         "stylers": [
                             {
-                                "visibility": "off"
+                                "visibility": "on"
                             }
                         ]
                     },
@@ -197,7 +197,7 @@ var appMaster = {
 
             // Create the Google Map using out element and options defined above
             var map = new google.maps.Map(mapElement, mapOptions);
-            var myLatlng = new google.maps.LatLng(31.1997396,29.9194378);
+            var myLatlng = new google.maps.LatLng(52.522,13.4);
             var image = {
                 url: '../img/map_pin.png',
                 // This marker is 20 pixels wide by 32 pixels tall.
@@ -212,7 +212,7 @@ var appMaster = {
                 position: myLatlng,
                 icon: image,
                 map: map,
-                title: 'Hello World!'
+                title: 'CleanAir'
             });
 
         }
