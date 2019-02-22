@@ -236,6 +236,6 @@ $(document).ready(function() {
     appMaster.scollToTop();
     appMaster.headerSlider();
     appMaster.owlCarousel();
-    appMaster.maps();
+    //appMaster.maps();
 
 });
